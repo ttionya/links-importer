@@ -1,10 +1,10 @@
 {
   "private": true,
-  "name": "links-import",
+  "name": "links-importer",
   "version": "1.0.0",
   "author": "ttionya",
   "keywords": [],
-  "description": "import tool",
+  "description": "",
   "license": "ISC",
   "type": "module",
   "engines": {
