@@ -7,6 +7,9 @@
   "description": "import tool",
   "license": "ISC",
   "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
     "start": "node index.js",
     "prepare": "husky install"
@@ -15,7 +18,8 @@
     "axios": "^1.6.0",
     "axios-retry": "^3.8.1",
     "chalk": "^5.3.0",
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "@ttionya/eslint-config": "^2.5.0",
